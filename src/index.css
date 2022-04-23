@@ -11,3 +11,54 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.full-height {
+  height: 100%;
+}
+
+
+.flex-horizontal {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-vertical {
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+}
+
+
+
+.flex-center {
+  justify-content: center;
+  align-items: center;
+}
+
+
+.container {
+  overflow: auto;
+}
+
+.overflow-auto {
+  overflow: auto;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.flex-1 {
+  flex: 1 !important;
+}
+
+
